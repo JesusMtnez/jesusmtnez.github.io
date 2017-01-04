@@ -7,9 +7,8 @@ SITENAME = "JesusMtnez's Blog"
 SITEURL = ''
 
 PATH = 'content'
-
+OUTPUT_PATH = 'public'
 TIMEZONE = 'Europe/Madrid'
-
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
