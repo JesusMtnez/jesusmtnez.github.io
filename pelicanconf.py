@@ -3,8 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'JesusMtnez'
-SITENAME = "JesusMtnez's Blog"
 SITEURL = ''
+SITENAME = "JesusMtnez's Blog"
+SITELOGO = SITEURL + '/images/profile.jpeg'
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
@@ -18,17 +19,16 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/JesusMtnezBH'),
+	  ('linkedin', 'https://linkedin.com/in/JesusMtnez'),
+          ('gitlab', 'https://gitlab.com/JesusMtnez'),
+          ('github', 'https://github.com/JesusMtnez')
+         )
 
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# Theme settings
+THEME = "Flex"
+BIO = "Desarrollador backend, aprendiz de Scala, escritor novato"
+PROFILE_IMAGE = "avatar.jpeg"
