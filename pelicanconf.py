@@ -4,13 +4,19 @@ from __future__ import unicode_literals
 
 AUTHOR = 'JesusMtnez'
 SITEURL = ''
-SITENAME = "JesusMtnez's Blog"
-SITELOGO = SITEURL + '/images/profile.jpeg'
+SITENAME = 'JesusMtnez\'s Blog'
+SITETITLE = 'Blog de Jesús Martínez-B. H.'
+SITESUBTITLE = 'Backend Developer'
+SITELOGO = '/images/profile.jpeg'
+SITEDESCRIPTION = 'Historias de un programador ávido de conocimiento'
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
+STATIC_PATHS = ['images', 'extra']
 TIMEZONE = 'Europe/Madrid'
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = 'es'
+OG_LOCALE = 'es_ES'
+COPYRIGHT_YEAR = 2017
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,15 +26,21 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/JesusMtnezBH'),
-	  ('linkedin', 'https://linkedin.com/in/JesusMtnez'),
-          ('gitlab', 'https://gitlab.com/JesusMtnez'),
-          ('github', 'https://github.com/JesusMtnez')
-         )
-
-DEFAULT_PAGINATION = 10
+SOCIAL = (
+  ('twitter', 'https://twitter.com/JesusMtnezBH'),
+  ('linkedin', 'https://linkedin.com/in/JesusMtnez'),
+  ('gitlab', 'https://gitlab.com/JesusMtnez'),
+  ('github', 'https://github.com/JesusMtnez')
+)
 
 # Theme settings
 THEME = "Flex"
-BIO = "Desarrollador backend, aprendiz de Scala, escritor novato"
-PROFILE_IMAGE = "avatar.jpeg"
+PYGMENTS_STYLE = 'native'
+DEFAULT_PAGINATION = 10
+
+# Menu settings
+MAIN_MENU = True
+MENUITEMS = (
+  ('Archivo', '/archives.html'),
+  ('Categorias', '/categories.html')
+)
