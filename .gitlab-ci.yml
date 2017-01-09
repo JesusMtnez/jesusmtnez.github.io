@@ -1,6 +1,8 @@
 image: python:3.6-alpine
 
 pages:
+  only:
+    - master
   script:
     - apk add --no-cache --virtual git
     - git clone --branch v2.1.0 https://github.com/alexandrevicenzi/Flex.git /tmp/flex-pelican-theme -q
