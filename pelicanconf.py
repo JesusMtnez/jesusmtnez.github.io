@@ -10,13 +10,21 @@ SITESUBTITLE = 'Backend Developer'
 SITELOGO = '/images/profile.jpeg'
 SITEDESCRIPTION = 'Historias de un programador ávido de conocimiento'
 
+I18N_TEMPLATES_LANG = 'en'
+DEFAULT_LANG = 'es'
+OG_LOCALE = 'es_ES'
+LOCALE = 'es_ES.UTF-8'
+
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['i18n_subsites']
+
 PATH = 'content'
 OUTPUT_PATH = 'public'
 STATIC_PATHS = ['images', 'extra']
 TIMEZONE = 'Europe/Madrid'
-DEFAULT_LANG = 'es'
-OG_LOCALE = 'es_ES'
 COPYRIGHT_YEAR = 2017
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

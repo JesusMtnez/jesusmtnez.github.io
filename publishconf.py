@@ -11,6 +11,7 @@ SITEURL = 'https://jesusmtnez.gitlab.io'
 RELATIVE_URLS = False
 
 THEME = '/tmp/flex-pelican-theme'
+PLUGIN_PATHS = ['/tmp/pelican-plugins']
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
