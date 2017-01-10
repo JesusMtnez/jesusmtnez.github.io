@@ -1,3 +1,5 @@
+# Pelican
 public/
 *.pyc
-
+pelican-plugins/
+Flex/
