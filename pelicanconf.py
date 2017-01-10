@@ -21,12 +21,12 @@ JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites']
 
+# PATHs
 PATH = 'content'
 PAGE_PATH = ['pages']
 ARTICLE_PATHS = ['posts']
 OUTPUT_PATH = 'public'
 STATIC_PATHS = ['images', 'extra']
-
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
