@@ -9,6 +9,8 @@ SITETITLE = 'Blog de Jesús Martínez-B. H.'
 SITESUBTITLE = 'Backend Developer'
 SITELOGO = '/images/profile.jpeg'
 SITEDESCRIPTION = 'Historias de un programador ávido de conocimiento'
+TIMEZONE = 'Europe/Madrid'
+COPYRIGHT_YEAR = 2017
 
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'es'
@@ -22,8 +24,6 @@ PLUGINS = ['i18n_subsites']
 PATH = 'content'
 OUTPUT_PATH = 'public'
 STATIC_PATHS = ['images', 'extra']
-TIMEZONE = 'Europe/Madrid'
-COPYRIGHT_YEAR = 2017
 
 
 # Feed generation is usually not desired when developing
@@ -44,7 +44,9 @@ SOCIAL = (
 # Theme settings
 THEME = "Flex"
 PYGMENTS_STYLE = 'native'
+TYPOGRIFY = True
 DEFAULT_PAGINATION = 10
+SUMMARY_MAX_LENGTH = 50
 
 # Menu settings
 MAIN_MENU = True

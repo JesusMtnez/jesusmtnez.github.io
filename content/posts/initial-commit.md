@@ -3,7 +3,6 @@ Date: 2017-01-08
 Category: Offtopic
 Tags: offtopic
 Slug: welcome-to-my-blog
-Summary: Os doy la bienvenida a todos a mi blog personal. Llevaba mucho tiempo queriendo sacar a delante un pequeño blog personal en el que plasmar todos mis pensamientos, aventuras y desventuras en este maravilloso mundo que es la informática y el desarrollo de software.
 
 ## ¡Hola a todos!
 
