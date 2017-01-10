@@ -1,14 +1,22 @@
 image: python:3.6-alpine
 
-pages:
-  only:
-    - master
+.build_blog_template: &build_blog
   script:
     - apk add --no-cache --virtual git
     - git clone https://github.com/alexandrevicenzi/Flex.git /tmp/flex-pelican-theme -q
     - git clone --recursive https://github.com/getpelican/pelican-plugins /tmp/pelican-plugins -q
     - pip install -r requirements.txt
     - pelican -s publishconf.py
+
+build:
+  <<: *build_blog
+  except:
+    - master
+
+pages:
+  <<: *build_blog
+  only:
+    - master
   artifacts:
     paths:
       - public/
