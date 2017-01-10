@@ -56,3 +56,7 @@ MENUITEMS = (
   ('Archivo', '/archives.html'),
   ('Categorias', '/categories.html')
 )
+
+# URLs
+AUTHOR_URL = ''
+AUTHOR_SAVE_AS = ''
