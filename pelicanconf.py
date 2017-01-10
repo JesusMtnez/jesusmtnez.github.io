@@ -22,6 +22,8 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites']
 
 PATH = 'content'
+PAGE_PATH = ['pages']
+ARTICLE_PATHS = ['posts']
 OUTPUT_PATH = 'public'
 STATIC_PATHS = ['images', 'extra']
 
