@@ -17,7 +17,9 @@ DEFAULT_LANG = 'es'
 OG_LOCALE = 'es_ES'
 LOCALE = 'es_ES.UTF-8'
 
-JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+JINJA_ENVIRONMENT = {
+  'extensions': ['jinja2.ext.i18n']
+}
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites']
 
