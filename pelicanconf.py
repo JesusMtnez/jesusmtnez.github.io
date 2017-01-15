@@ -11,6 +11,9 @@ SITELOGO = '/images/profile.jpeg'
 SITEDESCRIPTION = 'Historias de un programador ávido de conocimiento'
 TIMEZONE = 'Europe/Madrid'
 COPYRIGHT_YEAR = 2017
+DATE_FORMATS = {
+  'es': '%d / %m / %Y'
+}
 
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'es'
