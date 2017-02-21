@@ -28,9 +28,9 @@ PLUGINS = ['i18n_subsites']
 
 # PATHs
 PATH = 'content'
-PAGE_PATH = ['pages']
-ARTICLE_PATHS = ['posts']
 OUTPUT_PATH = 'public'
+PAGE_PATHS = ['pages']
+ARTICLE_PATHS = ['articles']
 STATIC_PATHS = ['images', 'extra']
 
 # Feed generation is usually not desired when developing
