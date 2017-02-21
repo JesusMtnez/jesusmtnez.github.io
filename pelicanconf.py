@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+# Main Configuration
 AUTHOR = 'JesusMtnez'
 SITEURL = ''
 SITENAME = 'JesusMtnez\'s Blog'
@@ -14,16 +15,13 @@ COPYRIGHT_YEAR = 2017
 DATE_FORMATS = {
   'es': '%d / %m / %Y'
 }
-
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'es'
 OG_LOCALE = 'es_ES'
 LOCALE = 'es_ES.UTF-8'
-
 JINJA_ENVIRONMENT = {
   'extensions': ['jinja2.ext.i18n']
 }
-PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites']
 
 # PATHs
@@ -32,6 +30,7 @@ OUTPUT_PATH = 'public'
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['articles']
 STATIC_PATHS = ['images', 'extra']
+PLUGIN_PATHS = ['pelican-plugins']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -65,3 +64,6 @@ MENUITEMS = (
 # URLs
 AUTHOR_URL = ''
 AUTHOR_SAVE_AS = ''
+
+# Other settings
+USE_FOLDER_AS_CATEGORY = False
