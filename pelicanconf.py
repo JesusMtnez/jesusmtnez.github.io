@@ -67,3 +67,4 @@ AUTHOR_SAVE_AS = ''
 
 # Other settings
 USE_FOLDER_AS_CATEGORY = False
+DISPLAY_PAGES_ON_MENU = True
