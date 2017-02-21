@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 # Main Configuration
 AUTHOR = 'JesusMtnez'
-SITEURL = ''
+SITEURL = 'http://127.0.0.1:8000'
 SITENAME = 'JesusMtnez\'s Blog'
 SITETITLE = 'Blog de Jesús Martínez-B. H.'
 SITESUBTITLE = 'Backend Developer'
