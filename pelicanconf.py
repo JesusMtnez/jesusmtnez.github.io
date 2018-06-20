@@ -12,16 +12,11 @@ SITELOGO = '/images/profile.jpeg'
 SITEDESCRIPTION = 'Historias de un programador ávido de conocimiento'
 TIMEZONE = 'Europe/Madrid'
 COPYRIGHT_YEAR = 2017
-DATE_FORMATS = {
-  'es': '%d / %m / %Y'
-}
-I18N_TEMPLATES_LANG = 'en'
-DEFAULT_LANG = 'es'
-OG_LOCALE = 'es_ES'
-LOCALE = 'es_ES.UTF-8'
+
 JINJA_ENVIRONMENT = {
   'extensions': ['jinja2.ext.i18n']
 }
+
 PLUGINS = ['i18n_subsites']
 
 # PATHs
@@ -64,6 +59,28 @@ MENUITEMS = (
 # URLs
 AUTHOR_URL = ''
 AUTHOR_SAVE_AS = ''
+
+#LANG Settings
+DATE_FORMATS = {
+    'es': '%d / %m / %Y',
+    'en': '%Y / %m / %d'
+}
+
+I18N_TEMPLATES_LANG = 'en'
+DEFAULT_LANG = 'es'
+LOCALE = 'es_ES'
+
+I18N_SUBSITES = {
+    'en': {
+        'SITETITLE': 'Jesús Martínez-B. H. Blog',
+        'SITEDESCRIPTON': 'A developer\'s blog',
+        'MENUITEMS': (
+            ('Archive', '/en/archives.html'),
+            ('Categories', '/en/categories.html')
+        )
+    }
+}
+
 
 # Other settings
 USE_FOLDER_AS_CATEGORY = False
