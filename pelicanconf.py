@@ -14,7 +14,7 @@ TIMEZONE = 'Europe/Madrid'
 COPYRIGHT_YEAR = 2017
 
 JINJA_ENVIRONMENT = {
-  'extensions': ['jinja2.ext.i18n']
+    'extensions': ['jinja2.ext.i18n']
 }
 
 PLUGINS = ['i18n_subsites']
@@ -36,10 +36,10 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (
-  ('twitter', 'https://twitter.com/JesusMtnezBH'),
-  ('linkedin', 'https://linkedin.com/in/JesusMtnez'),
-  ('gitlab', 'https://gitlab.com/JesusMtnez'),
-  ('github', 'https://github.com/JesusMtnez')
+    ('twitter', 'https://twitter.com/JesusMtnezBH'),
+    ('linkedin', 'https://linkedin.com/in/JesusMtnez'),
+    ('gitlab', 'https://gitlab.com/JesusMtnez'),
+    ('github', 'https://github.com/JesusMtnez')
 )
 
 # Theme settings
