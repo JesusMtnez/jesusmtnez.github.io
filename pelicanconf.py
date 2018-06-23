@@ -6,8 +6,8 @@ from __future__ import unicode_literals
 AUTHOR = 'JesusMtnez'
 SITEURL = 'http://127.0.0.1:8000'
 SITENAME = 'JesusMtnez\'s Blog'
-SITETITLE = 'Blog de Jesús Martínez-B. H.'
-SITESUBTITLE = 'Backend Developer'
+SITETITLE = 'Blog de Jesús Martínez'
+SITESUBTITLE = 'Scala developer & Functional programmer enthusiast & DevOps'
 SITELOGO = '/images/profile.jpeg'
 SITEDESCRIPTION = 'Historias de un programador ávido de conocimiento'
 TIMEZONE = 'Europe/Madrid'
@@ -72,7 +72,7 @@ LOCALE = 'es_ES'
 
 I18N_SUBSITES = {
     'en': {
-        'SITETITLE': 'Jesús Martínez-B. H. Blog',
+        'SITETITLE': 'Jesús Martínez Blog',
         'SITEDESCRIPTON': 'A developer\'s blog',
         'MENUITEMS': (
             ('Archive', '/en/archives.html'),
