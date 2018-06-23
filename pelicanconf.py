@@ -52,8 +52,9 @@ SUMMARY_MAX_LENGTH = 50
 # Menu settings
 MAIN_MENU = True
 MENUITEMS = (
-  ('Archivo', '/archives.html'),
-  ('Categorias', '/categories.html')
+    ('Archivo', '/archives.html'),
+    ('Categorias', '/categories.html'),
+    ('English', '/en/')
 )
 
 # URLs
@@ -76,7 +77,8 @@ I18N_SUBSITES = {
         'SITEDESCRIPTON': 'A developer\'s blog',
         'MENUITEMS': (
             ('Archive', '/en/archives.html'),
-            ('Categories', '/en/categories.html')
+            ('Categories', '/en/categories.html'),
+            ('Spanish', '/')
         )
     }
 }
