@@ -45,4 +45,3 @@ El contenido de la presentación fué:
 
 * La presentación: [https://goo.gl/4d5WQ1](https://goo.gl/4d5WQ1)
 * Enlace al evento: [https://www.meetup.com/Scala-Programming-Madrid/events/236355445/](https://www.meetup.com/Scala-Programming-Madrid/events/236355445/)
-* Vídeo de la presentación: _Coming soon_
