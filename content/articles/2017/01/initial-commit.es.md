@@ -3,6 +3,7 @@ Date: 2017-01-08
 Category: Offtopic
 Tags: offtopic
 Slug: welcome-to-my-blog
+Lang: es
 
 ## ¡Hola a todos!
 

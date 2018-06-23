@@ -6,22 +6,17 @@ from __future__ import unicode_literals
 AUTHOR = 'JesusMtnez'
 SITEURL = 'http://127.0.0.1:8000'
 SITENAME = 'JesusMtnez\'s Blog'
-SITETITLE = 'Blog de Jesús Martínez-B. H.'
-SITESUBTITLE = 'Backend Developer'
+SITETITLE = 'Blog de Jesús Martínez'
+SITESUBTITLE = 'Scala developer & Functional programmer enthusiast & DevOps'
 SITELOGO = '/images/profile.jpeg'
 SITEDESCRIPTION = 'Historias de un programador ávido de conocimiento'
 TIMEZONE = 'Europe/Madrid'
 COPYRIGHT_YEAR = 2017
-DATE_FORMATS = {
-  'es': '%d / %m / %Y'
-}
-I18N_TEMPLATES_LANG = 'en'
-DEFAULT_LANG = 'es'
-OG_LOCALE = 'es_ES'
-LOCALE = 'es_ES.UTF-8'
+
 JINJA_ENVIRONMENT = {
-  'extensions': ['jinja2.ext.i18n']
+    'extensions': ['jinja2.ext.i18n']
 }
+
 PLUGINS = ['i18n_subsites']
 
 # PATHs
@@ -41,10 +36,10 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (
-  ('twitter', 'https://twitter.com/JesusMtnezBH'),
-  ('linkedin', 'https://linkedin.com/in/JesusMtnez'),
-  ('gitlab', 'https://gitlab.com/JesusMtnez'),
-  ('github', 'https://github.com/JesusMtnez')
+    ('twitter', 'https://twitter.com/JesusMtnezBH'),
+    ('linkedin', 'https://linkedin.com/in/JesusMtnez'),
+    ('gitlab', 'https://gitlab.com/JesusMtnez'),
+    ('github', 'https://github.com/JesusMtnez')
 )
 
 # Theme settings
@@ -57,13 +52,37 @@ SUMMARY_MAX_LENGTH = 50
 # Menu settings
 MAIN_MENU = True
 MENUITEMS = (
-  ('Archivo', '/archives.html'),
-  ('Categorias', '/categories.html')
+    ('Archivo', '/archives.html'),
+    ('Categorias', '/categories.html'),
+    ('English', '/en/')
 )
 
 # URLs
 AUTHOR_URL = ''
 AUTHOR_SAVE_AS = ''
+
+#LANG Settings
+DATE_FORMATS = {
+    'es': '%d / %m / %Y',
+    'en': '%Y / %m / %d'
+}
+
+I18N_TEMPLATES_LANG = 'en'
+DEFAULT_LANG = 'es'
+LOCALE = 'es_ES'
+
+I18N_SUBSITES = {
+    'en': {
+        'SITETITLE': 'Jesús Martínez Blog',
+        'SITEDESCRIPTON': 'A developer\'s blog',
+        'MENUITEMS': (
+            ('Archive', '/en/archives.html'),
+            ('Categories', '/en/categories.html'),
+            ('Spanish', '/')
+        )
+    }
+}
+
 
 # Other settings
 USE_FOLDER_AS_CATEGORY = False

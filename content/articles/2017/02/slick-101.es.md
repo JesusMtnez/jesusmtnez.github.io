@@ -3,6 +3,7 @@ Date: 2017-02-28
 Category: Talks
 Tags: scala,talks,slick,library,sql,programming,meetup
 Slug: my-first-talk
+Lang: es
 
 El pasado 30 de enero de 2017 tuve la oportunidad de asistir como ponente al MeetUp de [ScalaMAD](https://www.meetup.com/Scala-Programming-Madrid/), la comunidad de Scala de Madrid. La charla que preparé fué: **[Slick 101](https://goo.gl/4d5WQ1)**.
 
@@ -44,4 +45,3 @@ El contenido de la presentación fué:
 
 * La presentación: [https://goo.gl/4d5WQ1](https://goo.gl/4d5WQ1)
 * Enlace al evento: [https://www.meetup.com/Scala-Programming-Madrid/events/236355445/](https://www.meetup.com/Scala-Programming-Madrid/events/236355445/)
-* Vídeo de la presentación: _Coming soon_
