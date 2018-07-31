@@ -1,11 +1,13 @@
 Title: Gestionar configuración con múltiples cuentas de git
-Date: 2018-07-22
+Date: 2018-07-31
 Category: Git
 Tags: git,vcs,,programming,configuration,dotfiles
 Slug: managing-config-with-multiple-git-identities
 Lang: es
 
 Git es una herramienta de control de versiones de código que hoy en día podemos encontrar en casi todos lados. Yo mismo utilizo git para casi todo: gestionar mis [dotfiles](https://gitlab.com/JesusMtnez/dotfiles), en todos mis proyectos personales, y como no, en el trabajo. Y es justo en este último caso en el que usar git con múltiples cuentas se vuelve un poco tedioso.
+
+<img style="display: block; margin-left: auto; margin-right: auto" src="{filename}/images/git-logo.png">
 
 # El problema
 
@@ -66,6 +68,3 @@ $ cat ~/workspaces/client02/.gitconfig
 ```
 
 De esta manera, cada vez que entremos en un repositorio dentro de `~/workspaces/client01` se aplicará el fichero `~/workspaces/client01/.gitconfig`, y de igual forma para `client02`.
-
-# Conclusiones
-
