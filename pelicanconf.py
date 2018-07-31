@@ -44,7 +44,18 @@ SOCIAL = (
 
 # Theme settings
 THEME = "Flex"
-PYGMENTS_STYLE = 'native'
+PYGMENTS_STYLE = 'solarized-dark'
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight',
+            'guess_lang': False
+        },
+        'markdown.extensions.extra': {},
+        #'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
 TYPOGRIFY = True
 DEFAULT_PAGINATION = 10
 SUMMARY_MAX_LENGTH = 50
