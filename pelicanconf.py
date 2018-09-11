@@ -6,18 +6,12 @@ from __future__ import unicode_literals
 AUTHOR = 'JesusMtnez'
 SITEURL = 'http://127.0.0.1:8000'
 SITENAME = 'JesusMtnez\'s Blog'
-SITETITLE = 'Blog de Jesús Martínez'
+SITETITLE = 'JesusMtnez\'s personal blog'
 SITESUBTITLE = 'Scala developer & Functional programmer enthusiast & DevOps'
 SITELOGO = '/images/profile.jpeg'
-SITEDESCRIPTION = 'Historias de un programador ávido de conocimiento'
+SITEDESCRIPTION = 'My place to share all my adventures as developer'
 TIMEZONE = 'Europe/Madrid'
 COPYRIGHT_YEAR = 2017
-
-JINJA_ENVIRONMENT = {
-    'extensions': ['jinja2.ext.i18n']
-}
-
-PLUGINS = ['i18n_subsites']
 
 # PATHs
 PATH = 'content'
@@ -63,9 +57,8 @@ SUMMARY_MAX_LENGTH = 50
 # Menu settings
 MAIN_MENU = True
 MENUITEMS = (
-    ('Archivo', '/archives.html'),
-    ('Categorias', '/categories.html'),
-    ('English', '/en/')
+    ('Archive', '/archives.html'),
+    ('Categories', '/categories.html'),
 )
 
 # URLs
@@ -75,26 +68,12 @@ DISABLE_URL_HASH = True
 
 #LANG Settings
 DATE_FORMATS = {
-    'es': '%d / %m / %Y',
     'en': '%Y / %m / %d'
 }
 
 I18N_TEMPLATES_LANG = 'en'
-DEFAULT_LANG = 'es'
-LOCALE = 'es_ES'
-
-I18N_SUBSITES = {
-    'en': {
-        'SITETITLE': 'Jesús Martínez Blog',
-        'SITEDESCRIPTON': 'A developer\'s blog',
-        'MENUITEMS': (
-            ('Archive', '/en/archives.html'),
-            ('Categories', '/en/categories.html'),
-            ('Spanish', '/')
-        )
-    }
-}
-
+DEFAULT_LANG = 'en'
+LOCALE = 'en_US'
 
 # Other settings
 USE_FOLDER_AS_CATEGORY = False
