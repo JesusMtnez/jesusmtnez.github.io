@@ -1,9 +1,10 @@
-from invoke import task
-from pelican.server import ComplexHTTPRequestHandler
 import os
 import shutil
 import sys
 import socketserver
+
+from invoke import task
+from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 
 # Local path configuration (can be absolute or relative to fabfile)
 DEPLOY_PATH = 'public'
@@ -37,12 +38,13 @@ def regenerate(c):
 @task
 def serve(c):
     """Serve site at http://localhost:8000/"""
-    os.chdir(DEPLOY_PATH)
-
-    class AddressReuseTCPServer(socketserver.TCPServer):
+    class AddressReuseTCPServer(RootedHTTPServer):
         allow_reuse_address = True
 
-    server = AddressReuseTCPServer(('', PORT), ComplexHTTPRequestHandler)
+    server = AddressReuseTCPServer(
+        DEPLOY_PATH,
+        ('', PORT),
+        ComplexHTTPRequestHandler)
 
     sys.stderr.write('Serving on port {0} ...\n'.format(PORT))
     server.serve_forever()
