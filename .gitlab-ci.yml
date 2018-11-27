@@ -1,4 +1,4 @@
-image: python:3.6-alpine
+image: python:3.7.1-alpine
 
 .build_blog_template: &build_blog
   script:

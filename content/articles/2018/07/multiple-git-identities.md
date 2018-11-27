@@ -7,7 +7,7 @@ Lang: en
 
 Git is a versioning control system tools for source code that we can find anywhere nowadays. I use it for almost everything: managing my [dotfiles](https://gitlab.com/JesusMtnez/dotfiles), in all my personal projects and, of course, at work. But using _git_ at work, where it is very common to have multiple identities, could be quite tedious.
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{filename}/images/git-logo.png">
+<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/git-logo.png">
 
 # Problem
 

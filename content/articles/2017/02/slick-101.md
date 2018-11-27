@@ -9,7 +9,7 @@ Last 30th January 2017 I had the opportunity to give a talk at [ScalaMAD](https:
 
 ### What is [Slick](http://slick.lightbend.com/)?
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{filename}/images/slick-101/slick-logo.png">
+<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/slick-101/slick-logo.png">
 
 > “We don’t try to fight the relational model, we embrace it through a functional paradigm.”
 
@@ -35,11 +35,11 @@ The content of the presentation was:
 
 ##### Some pictures from the event
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{filename}/images/slick-101/inserting-data.jpeg">
+<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/slick-101/inserting-data.jpeg">
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{filename}/images/slick-101/inserting-data-2.jpeg">
+<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/slick-101/inserting-data-2.jpeg">
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{filename}/images/slick-101/selecting-data.jpeg">
+<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/slick-101/selecting-data.jpeg">
 
 ### Links
 
