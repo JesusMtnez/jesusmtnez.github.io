@@ -1,0 +1,65 @@
+title = "JesusMtnez"
+
+defaultContentLanguage = "en"
+languageCode = "en"
+
+enableEmoji = true
+pygmentsStyle = "emacs"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+theme = "hugo-coder"
+
+paginate = 20
+canonifyUrls = true
+
+[params]
+  author = "Jesús Martínez-B. H."
+  description = "JesusMtnez's personal web"
+  keywords = "blog,developer,personal"
+  info = "Scala developer & Functional programmer enthusiast & DevOps"
+  avatarUrl = "profile.jpeg"
+  #footerContent = "Enter a text here."
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  hideCredits = false
+  hideCopyright = false
+
+  math = true
+  custom_css = ["css/custom.css"]
+
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab"
+    weight = 2
+    url = "https://gitlab.com/JesusMtnez/"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/JesusMtnez/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/JesusMtnezBH/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/JesusMtnez/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+# [[menu.main]]
+#     name = "Projects"
+#     weight = 2
+#     url = "/projects/"
+# [[menu.main]]
+#     name = "About"
+#     weight = 3
+#     url = "/about/"
