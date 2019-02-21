@@ -1,15 +1,16 @@
-Title: My first talk: Slick 101 at ScalaMAD
-Date: 2017-02-28
-Category: Talks
-Tags: scala,talks,slick,library,sql,programming,meetup
-Slug: my-first-talk
-Lang: en
++++
+date = "2017-02-28"
+title = "My first talk: Slick 101 at ScalaMAD"
+slug = "my-first-talk"
+tags = ["scala", "talks", "slick", "library", "sql", "programming", "meetup"]
+categories = ["Talks"]
++++
 
 Last 30th January 2017 I had the opportunity to give a talk at [ScalaMAD](https://www.meetup.com/Scala-Programming-Madrid/) MeetUp. The talk I prepared was: **[Slick 101](https://goo.gl/4d5WQ1)**.
 
 ### What is [Slick](http://slick.lightbend.com/)?
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/slick-101/slick-logo.png">
+<img style="display: block; margin-left: auto; margin-right: auto" src="/images/slick-101/slick-logo.png">
 
 > “We don’t try to fight the relational model, we embrace it through a functional paradigm.”
 
@@ -35,11 +36,11 @@ The content of the presentation was:
 
 ##### Some pictures from the event
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/slick-101/inserting-data.jpeg">
+<img style="display: block; margin-left: auto; margin-right: auto" src="/images/slick-101/inserting-data.jpeg">
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/slick-101/inserting-data-2.jpeg">
+<img style="display: block; margin-left: auto; margin-right: auto" src="/images/slick-101/inserting-data-2.jpeg">
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/slick-101/selecting-data.jpeg">
+<img style="display: block; margin-left: auto; margin-right: auto" src="/images/slick-101/selecting-data.jpeg">
 
 ### Links
 

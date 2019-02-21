@@ -1,13 +1,14 @@
-Title: Managing configuration with multiple git identities
-Date: 2018-07-31
-Category: Git
-Tags: git,vcs,,programming,configuration,dotfiles
-Slug: managing-config-with-multiple-git-identities
-Lang: en
++++
+date = "2018-07-31"
+title = "Managing configuration with multiple git identities"
+slug = "managing-config-with-multiple-git-identities"
+tags = ["git", "vcs", "programming", "configuration", "dotfiles", "config"]
+categories = ["Git"]
++++
 
 Git is a versioning control system tools for source code that we can find anywhere nowadays. I use it for almost everything: managing my [dotfiles](https://gitlab.com/JesusMtnez/dotfiles), in all my personal projects and, of course, at work. But using _git_ at work, where it is very common to have multiple identities, could be quite tedious.
 
-<img style="display: block; margin-left: auto; margin-right: auto" src="{static}/images/git-logo.png">
+<img style="display: block; margin-left: auto; margin-right: auto" src="/images/git-logo.png">
 
 # Problem
 

@@ -1,5 +1,3 @@
-# Pelican
-public/
-*.pyc
-pelican-plugins/
-Flex/
+# Hugo
+/public/
+/resources/_gen/

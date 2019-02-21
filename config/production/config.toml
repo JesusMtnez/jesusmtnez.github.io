@@ -1,0 +1,5 @@
+baseURL = "https://jesusmtnez.gitlab.io/"
+
+googleAnalytics = "UA-121213323-1"
+
+disqusShortname = "jesusmtnez-gitlab-blog"
