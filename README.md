@@ -1,1 +1,3 @@
-# JesusMtnez's Blog Sources [![build status](https://gitlab.com/JesusMtnez/jesusmtnez.gitlab.io/badges/master/build.svg)](https://gitlab.com/JesusMtnez/jesusmtnez.gitlab.io/commits/master)
+[![Gitlab pipeline status (branch)](https://img.shields.io/gitlab/pipeline/JesusMtnez/jesusmtnez.gitlab.io/master.svg?style=flat-square)](https://gitlab.com/JesusMtnez/jesusmtnez.gitlab.io/commits/master)
+
+# JesusMtnez's Blog Sources
