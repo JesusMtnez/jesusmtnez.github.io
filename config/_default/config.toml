@@ -63,3 +63,8 @@ canonifyUrls = true
 #     name = "About"
 #     weight = 3
 #     url = "/about/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
