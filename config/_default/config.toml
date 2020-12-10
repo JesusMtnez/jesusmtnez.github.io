@@ -32,22 +32,22 @@ canonifyUrls = true
 
 [[params.social]]
     name = "Gitlab"
-    icon = "fab fa-gitlab"
-    weight = 2
+    icon = "fa fa-gitlab"
+    weight = 1
     url = "https://gitlab.com/JesusMtnez/"
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
-    weight = 1
+    icon = "fa fa-github"
+    weight = 2
     url = "https://github.com/JesusMtnez/"
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter"
+    icon = "fa fa-twitter"
     weight = 3
     url = "https://twitter.com/JesusMtnezBH/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    icon = "fa fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/JesusMtnez/"
 
