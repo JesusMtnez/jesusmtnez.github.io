@@ -10,12 +10,12 @@ variables:
 build:
   <<: *build_blog
   except:
-    - master
+    - main
 
 pages:
   <<: *build_blog
   only:
-    - master
+    - main
   artifacts:
     paths:
       - public
