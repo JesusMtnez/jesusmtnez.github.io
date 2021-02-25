@@ -1,11 +1,8 @@
-image: monachus/hugo
-
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
+image: nixos/nix:latest
 
 .build_blog_template: &build_blog
   script:
-    - hugo
+    - nix-shell --run "hugo"
 
 build:
   <<: *build_blog
