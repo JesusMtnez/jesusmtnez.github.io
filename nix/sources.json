@@ -1,0 +1,38 @@
+{
+    "hugo-coder": {
+        "branch": "master",
+        "description": "A minimalist blog theme for hugo.",
+        "homepage": "",
+        "owner": "luizdepra",
+        "repo": "hugo-coder",
+        "rev": "501a5bcbc49d0c67383905faeb08e6a71f3f0906",
+        "sha256": "1z2p1mwh0ik71fqckszyk9rwa5n6vnajvlik02sbgd5xhmynajs1",
+        "type": "tarball",
+        "url": "https://github.com/luizdepra/hugo-coder/archive/501a5bcbc49d0c67383905faeb08e6a71f3f0906.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "af958e8057f345ee1aca714c1247ef3ba1c15f5e",
+        "sha256": "1qjavxabbrsh73yck5dcq8jggvh3r2jkbr6b5nlz5d9yrqm9255n",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/af958e8057f345ee1aca714c1247ef3ba1c15f5e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "master",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1f32038df17a622f54c70962187954357b52e4ab",
+        "sha256": "0bqjvxm8qgrp7bbsxffqlz855z2ddnry1bp5yhpl31v7dmanzh81",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/1f32038df17a622f54c70962187954357b52e4ab.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
