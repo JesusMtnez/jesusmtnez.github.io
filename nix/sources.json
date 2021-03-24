@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "luizdepra",
         "repo": "hugo-coder",
-        "rev": "68580148a3395a8762e0cab09ba574ff3dbcad4e",
-        "sha256": "1i5nnhd46gbrff4c6bh136sfglh53b6xk8llj47hy78567i9jyfm",
+        "rev": "32ffc536aa934737dbd58c986c21a91de7e9eb29",
+        "sha256": "1lyh9gza04cbliyjgfv7dr80qv6szbbgs7zzs5xw7l9b90084s9m",
         "type": "tarball",
-        "url": "https://github.com/luizdepra/hugo-coder/archive/68580148a3395a8762e0cab09ba574ff3dbcad4e.tar.gz",
+        "url": "https://github.com/luizdepra/hugo-coder/archive/32ffc536aa934737dbd58c986c21a91de7e9eb29.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -29,10 +29,10 @@
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "7173ab6f8e67e83ff03572b709c7ef19af38bb43",
-        "sha256": "1yy257r98zbqf3038drybqb8ql03q2l9mls7ccfpqkp55d96q4gl",
+        "rev": "1af4354d8149c48229b4a5621b4067688135ea3a",
+        "sha256": "1qqx4lpx0askg5l40gp9l1hww16w2mg5wmhzh31wjn0zvr9mdm28",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/7173ab6f8e67e83ff03572b709c7ef19af38bb43.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/1af4354d8149c48229b4a5621b4067688135ea3a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
