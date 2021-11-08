@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "luizdepra",
         "repo": "hugo-coder",
-        "rev": "6581e860bde43960e3b6362001f270cd2e9db178",
-        "sha256": "1dr2fsjrnbxb0jhs3v0fn3306yzhh6b8023hmb1ddhf7aawqfljf",
+        "rev": "0358105df237d9291f7aec38cf9527ce0d5a1f02",
+        "sha256": "0234v3746z2jgvxagm3hpf065fdp8gijpcpb9jz55hj2x4r9zxc6",
         "type": "tarball",
-        "url": "https://github.com/luizdepra/hugo-coder/archive/6581e860bde43960e3b6362001f270cd2e9db178.tar.gz",
+        "url": "https://github.com/luizdepra/hugo-coder/archive/0358105df237d9291f7aec38cf9527ce0d5a1f02.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
