@@ -2,6 +2,7 @@ let
 
   sources = import ./nix/sources.nix;
   nixpkgs = sources.nixpkgs;
+  niv = sources.niv;
   pkgs = import nixpkgs {};
 
   theme = sources.hugo-coder;
@@ -26,7 +27,7 @@ in pkgs.mkShell rec {
   name = "blog";
 
   buildInputs = with pkgs; [
-    niv
+    (import niv { }).niv
     hugo
   ];
 
