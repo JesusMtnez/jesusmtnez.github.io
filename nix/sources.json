@@ -1,14 +1,14 @@
 {
     "hugo-coder": {
-        "branch": "master",
+        "branch": "main",
         "description": "A minimalist blog theme for hugo.",
         "homepage": "",
         "owner": "luizdepra",
         "repo": "hugo-coder",
-        "rev": "29a7a942b7c6e494dd8cfb941f0950504769528c",
-        "sha256": "0hga96ajsk98j1r3x5ygm6vmfmdmjyg0mhr9dvnm065xd3miy3jx",
+        "rev": "750ff9a602bb785f1356e87cc8e81f55618e55c7",
+        "sha256": "0j5wx433mq023slmfx4d0gr0wnpfhw7yj018lbv6l63sqrcrdv2w",
         "type": "tarball",
-        "url": "https://github.com/luizdepra/hugo-coder/archive/29a7a942b7c6e494dd8cfb941f0950504769528c.tar.gz",
+        "url": "https://github.com/luizdepra/hugo-coder/archive/750ff9a602bb785f1356e87cc8e81f55618e55c7.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -29,10 +29,10 @@
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e0d6a5cce14b3f971ff42f039c7c604cd510af9b",
-        "sha256": "0a9v7b1mjzp1nn7vdg9xj069xmich1wslvn61k1s1z74qn6vvn9j",
+        "rev": "c9f2ab4f743b4c1c22c0c566b5e1daad0511c33e",
+        "sha256": "1cpsrrnc1hdx7j3lqq17j02nagm66kyzzkx3g8ws1wmzl08bzviv",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/e0d6a5cce14b3f971ff42f039c7c604cd510af9b.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/c9f2ab4f743b4c1c22c0c566b5e1daad0511c33e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
