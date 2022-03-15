@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1644229661,
+        "narHash": "sha256-1YdnJAsNy69bpcjuoKdOYQX0YxZBiCYZo4Twxerqv7k=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3cecb5b042f7f209c56ffd8371b2711a290ec797",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1647321545,
+        "narHash": "sha256-alnh5Pc73jdXAiN17G9AfhYEf2aURsTMXa/DXLiA3MI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "be872a7453a176df625c12190b8a6c10f6b21647",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "theme": "theme"
+      }
+    },
+    "theme": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1646850984,
+        "narHash": "sha256-ec7UXt+vwGZVVPoXvrXNzRqlD5YgEjx9M4Wr8WRlpJM=",
+        "owner": "luizdepra",
+        "repo": "hugo-coder",
+        "rev": "40eeed8256284ef5a7481ae35d565de5895e6f99",
+        "type": "github"
+      },
+      "original": {
+        "owner": "luizdepra",
+        "repo": "hugo-coder",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

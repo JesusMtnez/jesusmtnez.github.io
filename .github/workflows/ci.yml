@@ -9,19 +9,18 @@ on:
 
 jobs:
   ci:
-    name: build site
+    name: Build Site
     runs-on: ubuntu-latest
     steps:
-    - name: git checkout
-      uses: actions/checkout@v3.0.0
+    - uses: actions/checkout@v3.0.0
 
-    - name: setup nix
-      uses: cachix/install-nix-action@v14.1
+    - name: "Install Nix ❄️"
+      uses: cachix/install-nix-action@v16
 
-    - name: build
-      run: nix-shell --run "hugo"
+    - name: "Build 🛠️"
+      run: "nix develop -c hugo"
 
-    - name: deploy
+    - name: "Deploy 🚀"
       if: ${{ github.ref == 'refs/heads/main' }}
       uses: crazy-max/ghaction-github-pages@v2
       with:
