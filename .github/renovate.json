@@ -1,5 +1,9 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "nix": {
+    "enabled": true,
+    "extends": ["schedule:weekly"]
+  }
 }
