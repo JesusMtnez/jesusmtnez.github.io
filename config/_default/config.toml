@@ -4,14 +4,22 @@ defaultContentLanguage = "en"
 languageCode = "en"
 
 enableEmoji = true
-pygmentsStyle = "emacs"
-pygmentsCodeFences = true
-pygmentsCodeFencesGuessSyntax = true
 
 theme = "hugo-coder"
 
 paginate = 20
 canonifyUrls = true
+
+[markup.highlight]
+  codeFences = true
+  lineNoStart = 1
+  lineNos = true
+  tabWith = 2
+  style = "onedark"
+  noClasses = true
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
   author = "Jesús Martínez-B. H."
@@ -20,15 +28,16 @@ canonifyUrls = true
   info = "Scala developer & Functional programmer enthusiast & DevOps"
   avatarUrl = "profile.jpeg"
   #footerContent = "Enter a text here."
-
+  since = "2017"
+  colorScheme = "dark"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
   hideCredits = false
   hideCopyright = false
+  hideColorSchemeToggle = false
 
   math = true
-  custom_css = ["css/custom.css"]
 
 [[params.social]]
     name = "Gitlab"
@@ -63,8 +72,3 @@ canonifyUrls = true
 #     name = "About"
 #     weight = 3
 #     url = "/about/"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true

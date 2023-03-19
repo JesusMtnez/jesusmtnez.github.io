@@ -14,15 +14,15 @@ Git is a versioning control system tools for source code that we can find anywhe
 
 I use [GitLab](https://gitlab.com/JesusMtnez) to manage all my personal projects, with a automatic mirror to my [GitHub](https://github.com/JesusMtnez) account. In both services I have used the same username and email to make it easy to configure _git_. I just need to add that information to my `~/.gitconfig`
 
-```
+```toml
 [user]
     name = JesusMtnez
-    email = jesusmartinez93@gmail.com
+    email = "jesusmartinez93@gmail.com"
 ```
 
 But nowadays I'm working in a company where I have to collaborate with multiple clients. It is very common that each client requires an email account in its company domain, which has to be used to author commits. To configure it, I used to set the specific email account per repository, overriding my personal email account.
 
-```
+```sh
 $ cd ~/workspaces/client01/repository
 $ git config --local user.email jesus@client01.com
 ```
@@ -33,7 +33,7 @@ Making these configuration one or two times manually is no problem, but in the e
 
 Since version 2.13, git includes a feature for **conditional includes**, allowing users to load configuration files depending where the user is in the shell session. Syntax looks like:
 
-```
+```toml
 [includeIf "gitdir:/path/group/repo"]
     path = /path/to/config/file
 ```
@@ -47,7 +47,7 @@ To solve the issue:
 
 * Create a file `.gitconfig` in each client workspace containing its specific configuration:
 
-```
+```sh
 $ cat  ~/workspaces/client01/.gitconfig
 [user]
     email = jesus@client01.com
@@ -60,7 +60,7 @@ $ cat ~/workspaces/client02/.gitconfig
 
 * Add conditional include in my global configuration to active those configuration when working on clients repositories. To do that, I added the following code to my `$HOME/.gitconfig`:
 
-```
+```toml
 [includeIf "gitdir:~/workspaces/client01/"]
     path = ~/workspaces/client01/.gitconfig
 
