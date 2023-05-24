@@ -14,23 +14,31 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
+        themeName = ((builtins.fromTOML (builtins.readFile "${theme}/theme.toml")).name);
+      in
+      {
 
-        hugo-coder = pkgs.runCommandLocal "hugo-coder" {
-          src = theme;
-        }
-        ''
-          cp -r $src $out
-          chmod -R u+w $out
-        '';
-      in {
+        packages.blog = pkgs.stdenv.mkDerivation rec {
+          name = "blog";
+          versino = "0.0.1";
+          src = ./.;
+          nativeBuildInputs = [ pkgs.hugo ];
+          configurePhase = ''
+            mkdir -p "themes/${themeName}"
+            cp -r ${theme}/* "themes/${themeName}"
+          '';
+          buildPhase = "hugo";
+          installPhase = "cp -r public $out";
+        };
+
+        defaultPackage = self.packages.${system}.blog;
+
         devShell = pkgs.mkShell {
           name = "blog-shell";
-
-          buildInputs = [ pkgs.hugo ];
-
+          packages = [ pkgs.hugo ];
           shellHook = ''
-            mkdir -p themes
-            ln -snf "${hugo-coder}" themes/hugo-coder
+            mkdir -p "themes/${themeName}"
+            cp -r ${theme}/* "themes/${themeName}"
           '';
         };
       }

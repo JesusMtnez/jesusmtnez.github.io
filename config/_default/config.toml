@@ -5,7 +5,7 @@ languageCode = "en"
 
 enableEmoji = true
 
-theme = "hugo-coder"
+theme = "Coder"
 
 paginate = 20
 canonifyUrls = true
