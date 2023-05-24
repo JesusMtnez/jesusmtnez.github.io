@@ -18,27 +18,27 @@
       in
       {
 
-        packages.blog = pkgs.stdenv.mkDerivation rec {
-          name = "blog";
-          versino = "0.0.1";
+        packages.website = pkgs.stdenv.mkDerivation rec {
+          pname = "jesusmtnez-website";
+          version = (builtins.substring 0 8 self.lastModifiedDate);
           src = ./.;
           nativeBuildInputs = [ pkgs.hugo ];
           configurePhase = ''
             mkdir -p "themes/${themeName}"
             cp -r ${theme}/* "themes/${themeName}"
           '';
-          buildPhase = "hugo";
-          installPhase = "cp -r public $out";
+          buildPhase = "hugo --destination $out";
+          dontInstal = true;
         };
 
-        defaultPackage = self.packages.${system}.blog;
+        defaultPackage = self.packages.${system}.website;
 
         devShell = pkgs.mkShell {
-          name = "blog-shell";
+          name = "website-shell";
           packages = [ pkgs.hugo ];
           shellHook = ''
-            mkdir -p "themes/${themeName}"
-            cp -r ${theme}/* "themes/${themeName}"
+            mkdir -p "themes"
+            [[ ! -d themes/${themeName} ]] && ln -sn ${theme}/* "themes/${themeName}"
           '';
         };
       }
