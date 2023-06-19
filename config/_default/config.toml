@@ -40,23 +40,33 @@ canonifyUrls = true
   math = true
 
 [[params.social]]
-    name = "Gitlab"
-    icon = "fa fa-gitlab"
-    weight = 1
-    url = "https://gitlab.com/JesusMtnez/"
-[[params.social]]
     name = "Github"
-    icon = "fa fa-github"
+    icon = "fa fa-2x fa-github"
     weight = 2
-    url = "https://github.com/JesusMtnez/"
+    url = "https://github.com/JesusMtnez"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fa fa-2x fa-gitlab"
+    weight = 1
+    url = "https://gitlab.com/JesusMtnez"
+[[params.social]]
+    name = "Codeberg.org"
+    icon = "fa fa-2x fa-git-square"
+    weight = 2
+    url = "https://codeberg.org/JesusMtnez"
+[[params.social]]
+    name = "Mastodon"
+    icon = "fa fa-2x fa-mastodon"
+    weight = 3
+    url = "https://fosstodon.org/@jesusmtnez"
 [[params.social]]
     name = "Twitter"
-    icon = "fa fa-twitter"
+    icon = "fa fa-2x fa-twitter"
     weight = 3
     url = "https://twitter.com/JesusMtnezBH/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-linkedin"
+    icon = "fa fa-2x fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/JesusMtnez/"
 
