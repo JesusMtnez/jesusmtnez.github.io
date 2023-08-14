@@ -47,6 +47,7 @@
             name = "website-shell";
             packages = [ pkgs.hugo ];
             shellHook = ''
+              rm -r themes/*
               mkdir -p themes
               [[ ! -d themes/${themeName} ]] && ln -sn ${theme} themes/${themeName}
             '';
