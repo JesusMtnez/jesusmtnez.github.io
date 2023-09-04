@@ -13,7 +13,7 @@ jobs:
     name: Build Site
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3.6.0
+    - uses: actions/checkout@v4.0.0
 
     - name: "Install Nix ❄️"
       uses: cachix/install-nix-action@6a9a9e84a173d90b3ffb42c5ddaf9ea033fad011 # v23
