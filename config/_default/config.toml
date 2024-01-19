@@ -22,8 +22,8 @@ canonifyUrls = true
   unsafe = true
 
 [params]
-  author = "Jesús Martínez-B. H."
-  description = "JesusMtnez's personal web"
+  author = "JesusMtnez"
+  description = "My personal website"
   keywords = "blog,developer,personal"
   info = "Scala developer & Functional programmer enthusiast & DevOps"
   avatarUrl = "images/profile.jpeg"
