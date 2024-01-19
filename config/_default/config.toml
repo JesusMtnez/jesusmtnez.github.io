@@ -77,7 +77,7 @@ canonifyUrls = true
 [[menu.main]]
     name = "Resume"
     weight = 2
-    url = "/resume/"
+    url = "https://jesusmtnez.codeberg.page/resume/"
 # [[menu.main]]
 #     name = "About"
 #     weight = 3
