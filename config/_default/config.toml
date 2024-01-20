@@ -46,22 +46,22 @@ canonifyUrls = true
     url = "https://codeberg.org/JesusMtnez"
 [[params.social]]
     name = "Github"
-    icon = "fa fa-2x fa-github"
+    icon = "fa fa-2x fa-github-square"
     weight = 1
     url = "https://github.com/JesusMtnez"
 [[params.social]]
     name = "Mastodon"
-    icon = "fa fa-2x fa-mastodon"
+    icon = "fa fa-2x fa-mastodon-square"
     weight = 3
     url = "https://fosstodon.org/@jesusmtnez"
 [[params.social]]
     name = "Twitter"
-    icon = "fa fa-2x fa-twitter"
+    icon = "fa fa-2x fa-twitter-square"
     weight = 3
     url = "https://twitter.com/JesusMtnezBH/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-2x fa-linkedin"
+    icon = "fa fa-2x fa-linkedin-square"
     weight = 4
     url = "https://www.linkedin.com/in/JesusMtnez/"
 
