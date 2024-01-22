@@ -21,6 +21,7 @@ steps:
     commands:
       - WORKDIR=`mktemp -d`
       - cp .domains $WORKDIR || true
+      - cp _redirects $WORKDIR || true
       - cp -ar public/. $WORKDIR/
       - cd $WORKDIR
       - git init
