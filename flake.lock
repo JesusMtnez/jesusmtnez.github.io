@@ -46,11 +46,11 @@
     "theme": {
       "flake": false,
       "locked": {
-        "lastModified": 1706107147,
-        "narHash": "sha256-5KHr7zGlg7MDAZSEDYfXIPXnzIneMh+vi3buEAwWX4s=",
+        "lastModified": 1706572789,
+        "narHash": "sha256-ZiOumgAfXqDd19fYdeHfPs881mjLhstWUIrUKMAF03Q=",
         "owner": "luizdepra",
         "repo": "hugo-coder",
-        "rev": "943d8597b5aa37f3ee23905c5c85e2ca4f0ed455",
+        "rev": "444d2847a59e13b4ea0529177fe9e62e0afa481d",
         "type": "github"
       },
       "original": {
