@@ -15,7 +15,7 @@ steps:
     - cp -ar result/. public/
 
   deploy:
-    image: alpine/git:2.43.0
+    image: alpine/git:2.47.1
     environment:
       BOT_EMAIL:
         from_secret: bot_email
