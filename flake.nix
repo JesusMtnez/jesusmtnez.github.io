@@ -30,7 +30,7 @@
         in
         {
 
-          packages.default = pkgs.stdenv.mkDerivation rec {
+          packages.default = pkgs.stdenv.mkDerivation {
             pname = "jesusmtnez-website";
             version = (builtins.substring 0 8 self.lastModifiedDate);
             src = ./.;
