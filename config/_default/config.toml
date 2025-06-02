@@ -50,20 +50,26 @@ canonifyUrls = true
     weight = 1
     url = "https://github.com/JesusMtnez"
 [[params.social]]
-    name = "Mastodon"
-    icon = "fa-brands fa-2x fa-mastodon"
+    name = "LinkedIn"
+    icon = "fa-brands fa-2x fa-linkedin"
     weight = 3
-    url = "https://fosstodon.org/@jesusmtnez"
+    url = "https://www.linkedin.com/in/JesusMtnez/"
 [[params.social]]
     name = "Twitter"
     icon = "fa-brands fa-2x fa-x-twitter"
-    weight = 3
+    weight = 4
     url = "https://twitter.com/JesusMtnezBH/"
 [[params.social]]
-    name = "LinkedIn"
-    icon = "fa-brands fa-2x fa-linkedin"
+    name = "Bluesky"
+    icon = "fa-brands fa-2x fa-bluesky"
     weight = 4
-    url = "https://www.linkedin.com/in/JesusMtnez/"
+    url = "https://bsky.app/profile/jesusmtnezbh.bsky.social"
+[[params.social]]
+    name = "Mastodon"
+    icon = "fa-brands fa-2x fa-mastodon"
+    weight = 4
+    url = "https://fosstodon.org/@jesusmtnez"
+
 
 [[menu.main]]
     name = "Blog"
